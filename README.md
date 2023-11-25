@@ -22,7 +22,12 @@ Please download the model file for quantization at https://ommer-lab.com/files/l
 Please download the reference batch for FID calculation at https://openaipublic.blob.core.windows.net/diffusion/jul-2021/ref_batches/lsun/bedroom/VIRTUAL_lsun_bedroom256.npz
 
 ## Generation
-For LSUN-bedrooms，run the script via
+For evolutionary search on LSUN-bedrooms，run the script via
 ```
-bash run_qdrop.sh
+bash run_search.sh
+```
+
+For DPTQ method on LSUN-bedrooms，run the script via
+```
+bash run_dptq.sh
 ```
