@@ -1,0 +1,23 @@
+CUDA_VISIBLE_DEVICES=2 \
+python scripts/search_ea_bedroom.py \
+--outdir 'outputs_search/w32a6-bedroom/' \
+--batch_size 40 \
+--n_samples 1000 \
+--time_step 20 \
+--max_epochs 10 \
+--population_num 50 \
+--mutation_num 25 \
+--crossover_num 10 \
+--seed 888 \
+--m_prob 0.25 \
+--use_ddim_init_x True \
+--thres 0.2 \
+--ref_mu ''./reference/bedroom_mu.npy'' \
+--ref_sigma './reference/bedroom_sigma.npy' \
+--custom_steps 50 \
+--n_bits_w 8 \
+--n_bits_a 6 \
+--channel_wise \
+--iters_a 1000 \
+--split \
+--sym \
