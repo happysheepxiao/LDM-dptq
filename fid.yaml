@@ -65,4 +65,3 @@ dependencies:
     - werkzeug==2.2.2
     - wrapt==1.14.1
     - zipp==3.11.0
-prefix: /home/yx/miniconda3/envs/fid
